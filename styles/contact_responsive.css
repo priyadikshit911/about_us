@@ -31,6 +31,14 @@
 	{
 		display: none !important;
 	}
+    .contact{
+        margin-left: 300px;
+        
+    }
+    .contact_form_container{
+        width: 550px;
+        
+    }
 }
 
 /************
@@ -74,6 +82,14 @@
 	{
 		margin-right: 0;
 	}
+    .contact{
+        margin-left: 200px;
+        
+    }
+    .contact_form_container{
+        width: 550px;
+        
+    }
 }
 
 /************
@@ -82,7 +98,15 @@
 
 @media only screen and (max-width: 1100px)
 {
-	
+.contact{
+        margin-left: 200px;
+    
+        
+    }
+    .contact_form_container{
+        width: 550px;
+        
+    }	
 }
 
 /************
@@ -135,6 +159,14 @@
 		width: 100%;
 		margin-top: 10px;
 	}
+     .contact{
+        margin: 0px;
+        
+    }
+    .contact_form_container{
+        width:500px;
+        
+    }
 	.contact
 	{
 		padding-top: 27px;
@@ -155,7 +187,14 @@
 
 @media only screen and (max-width: 959px)
 {
-	
+	 .contact{
+        margin-left: 100px;
+        
+    }
+    .contact_form_container{
+        width:500px;
+        
+    }
 }
 
 /************
@@ -164,7 +203,14 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+	 .contact{
+        margin-left: 100px;
+        
+    }
+    .contact_form_container{
+        width:500px;
+        
+    }
 }
 
 /************
@@ -226,6 +272,14 @@
 	{
 		font-size: 16px;
 	}
+    .contact{
+        margin-left: 0px;
+        
+    }
+    .contact_form_container{
+        width: 500px;
+        
+    }
 }
 
 /************
@@ -297,6 +351,14 @@
 		height: 42px;
 		font-size: 12px;
 	}
+    .contact{
+        margin: 0px;
+        
+    }
+    .contact_form_container{
+        width:450px;
+        
+    }
 	.contact_button
 	{
 		width: 131px;
