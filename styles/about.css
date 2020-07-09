@@ -298,11 +298,12 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
+	padding-top: 10px;
+    padding-bottom: 10px;
 }
 .about_row
 {
-	margin-top: 95px;
+	margin-top: 30px;
 }
 .about_content
 {
@@ -318,11 +319,11 @@ section
 }
 .about_text
 {
-	margin-top: 35px;
+	margin-top: 10px;
 }
 .about_button
 {
-	margin-top: 67px;
+	margin-top: 30px;
 }
 .about_image
 {
@@ -341,8 +342,8 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
-	padding-bottom: 115px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .milestone
 {
@@ -384,8 +385,8 @@ section
 .why
 {
 	width: 100%;
-	padding-top: 115px;
-	padding-bottom: 113px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .why .section_subtitle,
 .why .section_title
@@ -394,7 +395,7 @@ section
 }
 .why_row
 {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .why_item
 {
@@ -456,17 +457,17 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
-	padding-bottom: 67px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 .team_row
 {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .team_item
 {
 	width: 100%;
-	padding-bottom: 48px;
+	padding-bottom: 30px;
 }
 .team_image
 {
