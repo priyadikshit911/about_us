@@ -401,7 +401,25 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+	.contact{
+        margin-left: 40px;
+        
+    }
+    .contact_form_container{
+        width: 400px;
+        
+    }
+}
+@media only screen and (max-width: 520px)
+{
+	.contact{
+        margin-left: 30px;
+        
+    }
+    .contact_form_container{
+        width: 400px;
+        
+    }
 }
 
 /************
@@ -410,7 +428,14 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+	.contact{
+        margin-left: 0px;
+        
+    }
+    .contact_form_container{
+        width: 400px;
+        
+    }
 }
 
 /************
@@ -419,7 +444,14 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.contact{
+        margin-left: 0px;
+        
+    }
+    .contact_form_container{
+        width: 300px;
+        
+    }
 }
 
 /************
@@ -428,5 +460,12 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.contact{
+        margin-left: 0px;
+        
+    }
+    .contact_form_container{
+        width: 200px;
+        
+    }
 }
