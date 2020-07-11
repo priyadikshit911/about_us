@@ -300,7 +300,11 @@
 {
     .courses{
         margin-bottom: 50px;
-    }	
+    }
+    .courses_search_input{
+        width: 150px;
+    }
+    
 }
 
 /************
@@ -309,5 +313,9 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+    .courses_search_container{
+    }	
+    .courses_search_input{
+        width: 120px;
+    }
 }
