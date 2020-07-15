@@ -68,7 +68,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -86,16 +86,7 @@ a, a:hover, a:visited, a:active, a:link
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-p a:active
-{
-	position: relative;
-	color: #FF6347;
-}
-p a:hover
-{
-	color: #FFFFFF;
-	background: #ffa07f;
-}
+
 p a:hover::after
 {
 	opacity: 0.2;
@@ -289,16 +280,19 @@ section
 
 
 /*********************************
-7. Contact
+4. Contact
 *********************************/
 
 .contact
 {
     align-items: center;
 	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin-top: 20px;
+    margin-bottom: 20px;
 	background: #FFFFFF;
+}
+.contact_content1{
+    ;
 }
 .contact_title
 {
@@ -341,7 +335,7 @@ section
 .contact_form_container
 {
 	width: 100%;
-	margin-top: 70px;
+	margin-top: 30px;
 }
 .contact_input
 {
@@ -424,6 +418,7 @@ section
 	margin-top: 30px;
     
 }
+/*--
 .contact_map
 {
 	width: 100%;
@@ -450,4 +445,4 @@ section
 	width: 100%;
 	height: calc(100% + 30px);
 }
-
+*/
