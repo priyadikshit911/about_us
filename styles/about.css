@@ -71,7 +71,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -94,11 +94,7 @@ p a:active
 	position: relative;
 	color: #FF6347;
 }
-p a:hover
-{
-	color: #FFFFFF;
-	background: #ffa07f;
-}
+
 p a:hover::after
 {
 	opacity: 0.2;
@@ -247,7 +243,7 @@ section
 }
 .section_subtitle
 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	color: #72728c;
@@ -405,6 +401,7 @@ section
 .why_image
 {
 	width: 100%;
+    
 }
 .why_image img
 {
@@ -414,7 +411,8 @@ section
 {
 	padding-top: 48px;
 	padding-bottom: 55px;
-	
+	padding-left: px;
+	padding-right: px;
 }
 .why_title
 {
@@ -507,6 +505,11 @@ section
 .team_text
 {
 	margin-top: 22px;
+}
+.img{
+    margin-top: 30px;
+    height: 150px;
+    margin-left: 35px;
 }
 
 /*********************************
