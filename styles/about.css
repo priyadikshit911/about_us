@@ -402,7 +402,7 @@ section
 .why_image
 {
 	width: 100%;
-    
+    padding: 30px;
 }
 .why_image img
 {
@@ -414,18 +414,22 @@ section
 	padding-bottom: 55px;
 	padding-left: px;
 	padding-right: px;
+    background: rgb(23,129,176);
+background: radial-gradient(circle, rgba(23,129,176,1) 16%, rgba(26,28,28,1) 100%);
 }
 .why_title
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 	font-weight: 400;
-	color: #181818;
+	color: white;
 	line-height: 1.1;
+    
 }
 .why_text
 {
 	margin-top: 20px;
+    color: white;
 }
 .why_icon
 {
@@ -447,71 +451,8 @@ section
 	max-width: 60%;
 }
 
-/*********************************
-10. Team
-*********************************/
 
-.team
-{
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 10px;
-	padding-bottom: 30px;
-}
-.team_row
-{
-	margin-top: 50px;
-}
-.team_item
-{
-	width: 100%;
-	padding-bottom: 30px;
-}
-.team_image
-{
-	width: 195px;
-	height: 195px;
-	border-radius: 50%;
-	overflow: hidden;
-}
-.team_image img
-{
-	max-width: 100%;
-}
-.team_content
-{
-	width: 100%;
-}
-.team_title
-{
-	margin-top: 37px;
-}
-.team_title a
-{
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	font-weight: 400;
-	color: rgba(24,24,24,1);
-	line-height: 1.2;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.team_title a:hover
-{
-	color: rgba(24,24,24,0.7);
-}
-.team_text
-{
-	margin-top: 22px;
-}
-.img{
-    margin-top: 30px;
-    height: 150px;
-    margin-left: 35px;
-}
+
 
 /*
 buttons
